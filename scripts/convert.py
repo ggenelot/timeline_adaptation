@@ -19,6 +19,10 @@ with open(CSV_INPUT, newline="", encoding="utf-8") as f:
 
     for row in reader:
 
+        # Ne conserver que les lignes marquées Show == True (insensible à la casse)
+        if str(row.get("Show", "")).strip().lower() != "true":
+            continue
+
         # Ignorer les lignes sans Headline (souvent des lignes vides)
         if not row.get("Headline"):
             continue

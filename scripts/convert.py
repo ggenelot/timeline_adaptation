@@ -1,45 +1,57 @@
-import csv, json
+import csv, json, os
 
 CSV_INPUT = "data/timeline.csv"
 JSON_OUTPUT = "build/timeline.json"
 
-def to_int(value):
-    return int(value) if value and value.isdigit() else None
+def to_int(v):
+    """Convertit proprement en entier ou None."""
+    try:
+        return int(v)
+    except:
+        return None
 
 events = []
 
-with open(CSV_INPUT, newline='', encoding="utf-8") as f:
+with open(CSV_INPUT, newline="", encoding="utf-8") as f:
     reader = csv.DictReader(f)
 
     for row in reader:
-        if row.get("display", "1") not in ("1", "true", "TRUE"):
-            continue  # skip hidden rows
+
+        # Ignorer les lignes sans Headline (souvent des lignes vides)
+        if not row.get("Headline"):
+            continue
 
         event = {
             "start_date": {
-                "year": to_int(row["start_year"]),
-                "month": to_int(row["start_month"]),
-                "day": to_int(row["start_day"])
+                "year": to_int(row.get("Year")),
+                "month": to_int(row.get("Month")),
+                "day": to_int(row.get("Day"))
             },
             "end_date": {
-                "year": to_int(row["end_year"]),
-                "month": to_int(row["end_month"]),
-                "day": to_int(row["end_day"])
+                "year": to_int(row.get("End Year")),
+                "month": to_int(row.get("End Month")),
+                "day": to_int(row.get("End Day"))
             },
             "text": {
-                "headline": row["headline"],
-                "text": row["text"]
+                "headline": row.get("Headline", ""),
+                "text": row.get("Text", "")
             },
             "media": {
-                "url": row["media_url"],
-                "caption": row["media_caption"],
-                "credit": row["media_credit"],
-                "thumbnail": row["media_thumbnail"]
+                # Ton CSV dit "Media" pour l’URL → OK
+                "url": row.get("Media", ""),
+                "caption": row.get("Media Caption", ""),
+                "credit": row.get("Media Credit", ""),
+                "thumbnail": row.get("Media Thumbnail", "")
             }
         }
 
+        # Ajout du Group si présent
+        if row.get("Group"):
+            event["group"] = row["Group"]
+
         events.append(event)
 
+# Structure finale du JSON Timeline.js
 timeline = {
     "title": {
         "text": {
@@ -50,7 +62,10 @@ timeline = {
     "events": events
 }
 
+# Création du dossier build/ si besoin
+os.makedirs(os.path.dirname(JSON_OUTPUT), exist_ok=True)
+
 with open(JSON_OUTPUT, "w", encoding="utf-8") as f:
     json.dump(timeline, f, indent=2, ensure_ascii=False)
 
-print("✔ timeline.json généré !")
+print("✔ timeline.json généré à partir de TON CSV !")

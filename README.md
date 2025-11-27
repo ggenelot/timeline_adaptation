@@ -2,7 +2,7 @@
 
 This timeline shows how climate policy and assesment modeling techniques are linked across time. 
 
-<iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=https%3A%2F%2Fraw.githubusercontent.com%2Fggenelot%2Ftimeline_adaptation%2Fmain%2Fbuild%2Ftimeline.json&font=Default&lang=en&initial_zoom=2&width=100%25&height=650" width="100%" height="650" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=https%3A%2F%2Fraw.githubusercontent.com%2Fggenelot%2Ftimeline_adaptation%2Fmain%2Fbuild%2Ftimeline.json&font=Default&lang=en&initial_zoom=2&width=100%25&height=650" width="100%" height="650" frameborder="0" allowfullscreen frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If the iframe doesn't render in your viewer, open the timeline directly:
 https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=https%3A%2F%2Fraw.githubusercontent.com%2Fggenelot%2Ftimeline_adaptation%2Fmain%2Fbuild%2Ftimeline.json&font=Default&lang=en&initial_zoom=2&width=100%25&height=650

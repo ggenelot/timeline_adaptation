@@ -1,5 +1,7 @@
 import csv, json, os
 
+# Script that converts the CSV to JSON
+
 CSV_INPUT = "data/timeline.csv"
 JSON_OUTPUT = "build/timeline.json"
 

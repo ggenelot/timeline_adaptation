@@ -11,12 +11,12 @@ Year,Month,Day,Time,End Year,End Month,End Day,End Time,Display Date,Headline,Te
 1962,,,,,,,,,Deux résolutions onusiennes appellent à,Deux résolutions onusiennes appellent à la créa d'instances internationales (Source : gouverner le climat),,,,,,,Processus politique,,Gouverner le climat,False
 1963,,,,,,,,,L'OMM crée le World Weather watch,L'OMM crée le World Weather watch (Source : gouverner le climat),,,,,,,Expertise,,Gouverner le climat,False
 1964,,,,,,,,,L'ICSU crée la Commission pour les scien,L'ICSU crée la Commission pour les sciences atmosphériques (CAS) (Source : gouverner le climat),,,,,,,Expertise,,Gouverner le climat,False
-1967,,,,,,,,,Développement d'un premier modèle GCM au,Développement d'un premier modèle GCM au Geophysical Fluid Dynamics Laboratory (Source : gouverner le climat),,,,,,,Recherche,,Gouverner le climat,True
+1967,,,,,,,,,Développement d'un premier modèle GCM au,Développement d'un premier modèle GCM au Geophysical Fluid Dynamics Laboratory (Source : gouverner le climat),,,,,,,Recherche,,Gouverner le climat,False
 1967,,,,,,,,,L'ICSU et l'OMM créent le Programme glob,L'ICSU et l'OMM créent le Programme global de recherche atmosphérique (GARP) (Source : gouverner le climat),,,,,,,Expertise,,Gouverner le climat,False
 1969,,,,,,,,,L'ICSU crée le Comité scientifique sur l,L'ICSU crée le Comité scientifique sur les problèmes environnementaux (SCOPE) (Source : gouverner le climat),,,,,,,Recherche,,Gouverner le climat,False
 1971,,,,,,,,,Étude Man's Impact on climate (SMIC),Étude Man's Impact on climate (SMIC) (Source : gouverner le climat),,,,,,,Expertise,,Gouverner le climat,False
 1972,,,,,,,,,Publication de Only One World (Ward / Du,Publication de Only One World (Ward / Dubos) (Source : gouverner le climat),,,,,,,Expertise,,Gouverner le climat,False
-1972,,,,,,,,,Publication de Limits to growth,"Le rapport Meadows, aussi appelé rapport au Club de Rome sur la croissance, est publié. Il contient les résultats de travaux de modélisation qui simulent les interactions entre les sociétés et leur environnement. Il alerte sur les limites à la croissance dans une monde fini. ",https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Limits_to_Growth_fig._49.png/960px-Limits_to_Growth_fig._49.png,,,,,,,,https://en.wikipedia.org/wiki/The_Limits_to_Growth,True
+1972,,,,,,,,,Publication de Limits to growth,"Le rapport Meadows, aussi appelé rapport au Club de Rome sur la croissance, est publié. Il contient les résultats de travaux de modélisation qui simulent les interactions entre les sociétés et leur environnement. Il alerte sur les limites à la croissance dans une monde fini. ",https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Limits_to_Growth_fig._49.png/960px-Limits_to_Growth_fig._49.png,,,,,,Expertise,,https://en.wikipedia.org/wiki/The_Limits_to_Growth,True
 1972,,,,,,,,,Conférence de Stockholm et création de l’UNEP,Conférence de Stockholm et création de l’UNEP,,,,,,,Processus politique,,Gouverner le climat,False
 1976,,,,,,,,,Premiers grands rapports sur le changeme,Premiers grands rapports sur le changement climatique aux États-Unis et en Suède (Source : gouverner le climat),,,,,,,Expertise,,Gouverner le climat,False
 1979,,,,,,,,,Le rapport Charney (NAS) estime la sensi,"Le rapport Charney (NAS) estime la sensibilité du climat à 1,5-4,5^(@)C (Source : gouverner le climat)",,,,,,,Expertise,,Gouverner le climat,False
@@ -28,8 +28,7 @@ Year,Month,Day,Time,End Year,End Month,End Day,End Time,Display Date,Headline,Te
 1987,,,,,,,,,Rapport Our Common Future,Rapport Our Common Future (Source : gouverner le climat),,,,,,,Expertise,,Gouverner le climat,True
 1987,,,,,,,,,Traité de Montréal sur l'ozone,Traité de Montréal sur l'ozone (Source : gouverner le climat),,,,,,,Expertise,,Gouverner le climat,False
 1988,,,,,,,,,"Création du GIEC
-J. Hansen témoigne deva","Création du GIEC
-J. Hansen témoigne devant le Congrès américain (Source : gouverner le climat)",,,,,,,Expertise,,Gouverner le climat,True
+","A la demande du G7, le Groupe Intergouvernemental d’experts sur l’Evolution du Climat (GIEC) est créé, sous l’édige de l’Organisation météorologique mondiale et du Programme des Nations Unies pour l’environnemnet. Son rôle est de synthétiser l’état des connaissances scientifiques, d’une manière qui soit ‘policy relevant, not policy prescriptive’, c’est à dire utile à la décision politique sans s’y substituer. ",https://www.youtube.com/watch?v=XP6rhcQUmOs,,,,,,Expertise,,Gouverner le climat,True
 1988,,,,,,,,,ONU : le changement climatique devient u,"ONU : le changement climatique devient un préoccupation commune de l'humanité »
 Conférence de Toronto (Source : gouverner le climat)",,,,,,,Expertise,,Gouverner le climat,False
 1989,,,,,,,,,Conférences de La Haye et de Norwijk,Conférences de La Haye et de Norwijk (Source : gouverner le climat),,,,,,,Expertise,,Gouverner le climat,False

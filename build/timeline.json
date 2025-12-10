@@ -54,29 +54,6 @@
     },
     {
       "start_date": {
-        "year": 1967,
-        "month": null,
-        "day": null
-      },
-      "end_date": {
-        "year": null,
-        "month": null,
-        "day": null
-      },
-      "text": {
-        "headline": "Développement d'un premier modèle GCM au",
-        "text": "Développement d'un premier modèle GCM au Geophysical Fluid Dynamics Laboratory (Source : gouverner le climat)"
-      },
-      "media": {
-        "url": "",
-        "caption": "",
-        "credit": "",
-        "thumbnail": ""
-      },
-      "group": "Recherche"
-    },
-    {
-      "start_date": {
         "year": 1972,
         "month": null,
         "day": null
@@ -95,7 +72,8 @@
         "caption": "",
         "credit": "",
         "thumbnail": ""
-      }
+      },
+      "group": "Expertise"
     },
     {
       "start_date": {
@@ -132,11 +110,11 @@
         "day": null
       },
       "text": {
-        "headline": "Création du GIEC\nJ. Hansen témoigne deva",
-        "text": "Création du GIEC\nJ. Hansen témoigne devant le Congrès américain (Source : gouverner le climat)"
+        "headline": "Création du GIEC\n",
+        "text": "A la demande du G7, le Groupe Intergouvernemental d’experts sur l’Evolution du Climat (GIEC) est créé, sous l’édige de l’Organisation météorologique mondiale et du Programme des Nations Unies pour l’environnemnet. Son rôle est de synthétiser l’état des connaissances scientifiques, d’une manière qui soit ‘policy relevant, not policy prescriptive’, c’est à dire utile à la décision politique sans s’y substituer. "
       },
       "media": {
-        "url": "",
+        "url": "https://www.youtube.com/watch?v=XP6rhcQUmOs",
         "caption": "",
         "credit": "",
         "thumbnail": ""
